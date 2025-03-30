@@ -5,7 +5,7 @@ from fastapi import APIRouter
 
 from pydantic import BaseModel
 
-from models.hugging_face import trans_pipe, model
+from models.hugging_face import trans_pipe, model, translation
 
 router = APIRouter()
 
@@ -18,6 +18,16 @@ class TranslateText(BaseModel):
 @router.post("/translation")
 def translate(translate_text: TranslateText):
     return trans_pipe(translate_text.text)
+
+
+
+# @router.post("/translation2")
+# def translate2(translate_text: TranslateText):
+#     return translator(translate_text.text)
+
+@router.post("/translation3")
+def translate3(translate_text: TranslateText):
+    return translation(translate_text.text)
 
 @router.get("/detection_langue")
 def detection_langue(text: str):
