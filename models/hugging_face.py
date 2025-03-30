@@ -40,7 +40,7 @@ model_name = os.path.join(BASE_DIR, "cid.plk")
 
 
 
-trans_pipe = pipeline("translation", model=model_id, src_lang="mos_Latn", tgt_lang="fra_Latn")
+#trans_pipe = pipeline("translation", model=model_id, src_lang="mos_Latn", tgt_lang="fra_Latn")
 
 def translation(text):
     inputs = tokenizer(text, return_tensors="pt")
