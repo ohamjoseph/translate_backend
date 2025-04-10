@@ -1,19 +1,19 @@
-from transformers import pipeline, AutoModelForCausalLM
-import pickle
-import os
+# from transformers import pipeline, AutoModelForCausalLM
+# import pickle
+# import os
+#
+# from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+# from transformers import pipeline
+#
+# from transformers import AutoTokenizer
+# from optimum.onnxruntime import ORTModelForSeq2SeqLM
+#
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#
+# model_id = "aikunu/fintune-moore2fr-nllb-200-distilled-600M"
 
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-from transformers import pipeline
 
-from transformers import AutoTokenizer
-from optimum.onnxruntime import ORTModelForSeq2SeqLM
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-model_id = "aikunu/fintune-moore2fr-nllb-200-distilled-600M"
-
-
-from transformers import BitsAndBytesConfig
+#from transformers import BitsAndBytesConfig
 
 # quant_config = BitsAndBytesConfig(
 #     load_in_4bit=True,
