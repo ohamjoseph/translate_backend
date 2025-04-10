@@ -28,19 +28,19 @@ from transformers import BitsAndBytesConfig
 #     quantization_config=quant_config,
 #     device_map="auto"  # permet de charger sur le bon device (ex : CUDA)
 # )
-
+#
 model_onnx = ORTModelForSeq2SeqLM.from_pretrained(os.path.join(BASE_DIR, "onnx_model"), use_cache=False)
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-
+#
 # translator = pipeline("translation", model=model, tokenizer=tokenizer)
-
+#
 # Chemin correct du modèle (dans le même dossier que hugging_face.py)
 model_name = os.path.join(BASE_DIR, "cid.plk")
-
-
-
-#trans_pipe = pipeline("translation", model=model_id, src_lang="mos_Latn", tgt_lang="fra_Latn")
+#
+#
+#
+# trans_pipe = pipeline("translation", model=model_id, src_lang="mos_Latn", tgt_lang="fra_Latn")
 
 def translation(text):
     inputs = tokenizer(text, return_tensors="pt")

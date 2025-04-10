@@ -18,9 +18,9 @@ class TranslateText(BaseModel):
 # @router.post("/translation")
 # def translate(translate_text: TranslateText):
 #     return trans_pipe(translate_text.text)
-
-
-
+#
+#
+#
 # @router.post("/translation2")
 # def translate2(translate_text: TranslateText):
 #     return translator(translate_text.text)
