@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Étape 6 : Exposer le port utilisé par Uvicorn
-EXPOSE 8003
+EXPOSE 8000
 
 # Étape 7 : Commande pour démarrer l'application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8003"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

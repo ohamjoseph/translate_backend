@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2073384-144c-4792-967d-06c0e193f48a" name="Changes" comment="Gestions des utilisateurs&#10;Gestions des feeedback">
+    <list default="true" id="f2073384-144c-4792-967d-06c0e193f48a" name="Changes" comment="clean requirement file">
       <change afterPath="$PROJECT_DIR$/models/onnx_model/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/onnx_model/decoder_model.onnx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/onnx_model/decoder_model.onnx_data" afterDir="false" />
@@ -15,9 +15,8 @@
       <change afterPath="$PROJECT_DIR$/models/onnx_model/tokenizer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/onnx_model/tokenizer_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hugging_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hugging_face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translation/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/translation/route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/security.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <workItem from="1743510766514" duration="6000" />
       <workItem from="1743802333814" duration="3171000" />
       <workItem from="1743855774684" duration="21000" />
-      <workItem from="1744122664443" duration="33216000" />
+      <workItem from="1744122664443" duration="48407000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'initial commit'">
       <option name="closed" value="true" />
@@ -177,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744295715035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="clean requirement file">
+      <option name="closed" value="true" />
+      <created>1744298047849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744298047849</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,9 +197,10 @@
     <MESSAGE value="utilisation de modèle plus legé" />
     <MESSAGE value="utilisation unique de onnx_model" />
     <MESSAGE value="Gestions des utilisateurs&#10;Gestions des feeedback" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gestions des utilisateurs&#10;Gestions des feeedback" />
+    <MESSAGE value="clean requirement file" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean requirement file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/translate_backend$translate_backend.coverage" NAME="translate_backend Coverage Results" MODIFIED="1744297610218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/translate_backend$translate_backend.coverage" NAME="translate_backend Coverage Results" MODIFIED="1744379929014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
