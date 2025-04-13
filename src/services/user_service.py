@@ -15,7 +15,7 @@ class UserService:
             raise ValueError("Email déjà utilisé.")
 
         hashed = get_password_hash(user_data.password)
-        user = User(email=user_data.email, hashed_password=hashed, full_name=user_data.full_name)
+        user = User(email=user_data.email, hashed_password=hashed, first_name=user_data.first_name, last_name=user_data.last_name)
 
         created = self.user_repository.create_user(user)
         log_audit_event(f"Nouvel utilisateur créé : {user.email}")

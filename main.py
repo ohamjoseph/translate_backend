@@ -3,7 +3,7 @@ from starlette.middleware.cors import CORSMiddleware
 from src.api import auth_routes, user_routes, roles_routes, feedback_route
 from src.core.database import Base, engine
 
-from src.models import user, roles, permission
+from src.models import user, roles, permission, language
 
 # Crée les tables
 Base.metadata.create_all(bind=engine)
